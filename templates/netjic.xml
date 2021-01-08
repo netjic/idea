@@ -261,4 +261,9 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="datasuorce" value="&lt;bean id=&quot;dataSource&quot; class=&quot;org.springframework.jdbc.datasource.DriverManagerDataSource&quot;&gt;&#10;        &lt;property name=&quot;driverClassName&quot; value=&quot;com.mysql.cj.jdbc.Driver&quot;/&gt;&#10;        &lt;property name=&quot;password&quot; value=&quot;&quot;/&gt;&#10;        &lt;property name=&quot;username&quot; value=&quot;root&quot;/&gt;&#10;        &lt;property name=&quot;url&quot; value=&quot;jdbc:mysql://localhost:3306/shopadmin?serverTimezone=PRC&quot;/&gt;&#10;    &lt;/bean&gt;" shortcut="ENTER" description="datasuorce bean" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
