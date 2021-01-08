@@ -255,4 +255,10 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="beans" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;&#10;       xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#10;       xmlns:context=&quot;http://www.springframework.org/schema/context&quot;&#10;       xmlns:p=&quot;http://www.springframework.org/schema/p&quot;&#10;       xmlns:util=&quot;http://www.springframework.org/schema/util&quot;&#10;       xsi:schemaLocation=&quot;&#10;       http://www.springframework.org/schema/beans &#10;       http://www.springframework.org/schema/beans/spring-beans.xsd &#10;       http://www.springframework.org/schema/context &#10;       https://www.springframework.org/schema/context/spring-context.xsd&#10;       http://www.springframework.org/schema/util &#10;       http://www.springframework.org/schema/util/spring-util-3.0.xsd&#10;&quot;&gt;&#10;$end$&#10;&lt;/beans&gt;" shortcut="ENTER" description="beans template" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
