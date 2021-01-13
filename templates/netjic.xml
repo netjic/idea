@@ -250,7 +250,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="mjson" value=" &lt;dependency&gt;&#10;            &lt;groupId&gt;com.alibaba&lt;/groupId&gt;&#10;            &lt;artifactId&gt;fastjson&lt;/artifactId&gt;&#10;            &lt;version&gt;1.2.75&lt;/version&gt;&#10;        &lt;/dependency&gt;" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
+  <template name="mfjson" value=" &lt;dependency&gt;&#10;            &lt;groupId&gt;com.alibaba&lt;/groupId&gt;&#10;            &lt;artifactId&gt;fastjson&lt;/artifactId&gt;&#10;            &lt;version&gt;1.2.75&lt;/version&gt;&#10;        &lt;/dependency&gt;" shortcut="ENTER" description="fastjson" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
     </context>
@@ -264,6 +264,31 @@
   <template name="datasuorce" value="&lt;bean id=&quot;dataSource&quot; class=&quot;org.springframework.jdbc.datasource.DriverManagerDataSource&quot;&gt;&#10;        &lt;property name=&quot;driverClassName&quot; value=&quot;com.mysql.cj.jdbc.Driver&quot;/&gt;&#10;        &lt;property name=&quot;password&quot; value=&quot;&quot;/&gt;&#10;        &lt;property name=&quot;username&quot; value=&quot;root&quot;/&gt;&#10;        &lt;property name=&quot;url&quot; value=&quot;jdbc:mysql://localhost:3306/shopadmin?serverTimezone=PRC&quot;/&gt;&#10;    &lt;/bean&gt;" shortcut="ENTER" description="datasuorce bean" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="msaop" value="&lt;dependency&gt;&#10;      &lt;groupId&gt;org.springframework&lt;/groupId&gt;&#10;      &lt;artifactId&gt;spring-aop&lt;/artifactId&gt;&#10;      &lt;version&gt;5.3.2&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="spring-aop 5.3.2" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="msjdbc" value=" &lt;dependency&gt;&#10;      &lt;groupId&gt;org.springframework&lt;/groupId&gt;&#10;      &lt;artifactId&gt;spring-jdbc&lt;/artifactId&gt;&#10;      &lt;version&gt;5.3.2&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="spring-jdbc 5.3.2" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="mscontext" value="&lt;dependency&gt;&#10;      &lt;groupId&gt;org.springframework&lt;/groupId&gt;&#10;      &lt;artifactId&gt;spring-context&lt;/artifactId&gt;&#10;      &lt;version&gt;5.3.2&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="spring-context 5.3.2" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="mscore" value="&lt;dependency&gt;&#10;      &lt;groupId&gt;org.springframework&lt;/groupId&gt;&#10;      &lt;artifactId&gt;spring-core&lt;/artifactId&gt;&#10;      &lt;version&gt;5.3.2&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="spring-core 5.3.2" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+  <template name="msbeans" value="&lt;dependency&gt;&#10;      &lt;groupId&gt;org.springframework&lt;/groupId&gt;&#10;      &lt;artifactId&gt;spring-beans&lt;/artifactId&gt;&#10;      &lt;version&gt;5.3.2&lt;/version&gt;&#10;    &lt;/dependency&gt;" shortcut="ENTER" description="spring-beans 5.3.2" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
     </context>
   </template>
 </templateSet>
