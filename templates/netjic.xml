@@ -291,4 +291,9 @@
       <option name="MAVEN" value="true" />
     </context>
   </template>
+  <template name="msjson" value=" &lt;dependency&gt;&#10;            &lt;groupId&gt;com.fasterxml.jackson.core&lt;/groupId&gt;&#10;            &lt;artifactId&gt;jackson-databind&lt;/artifactId&gt;&#10;            &lt;version&gt;2.12.1&lt;/version&gt;&#10;        &lt;/dependency&gt;" shortcut="ENTER" description="jackson-databind" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
 </templateSet>
