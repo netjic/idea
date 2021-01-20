@@ -326,4 +326,9 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="mjsoup" value="&lt;dependency&gt;&#10;            &lt;groupId&gt;org.jsoup&lt;/groupId&gt;&#10;            &lt;artifactId&gt;jsoup&lt;/artifactId&gt;&#10;            &lt;version&gt;1.13.1&lt;/version&gt;&#10;        &lt;/dependency&gt;" shortcut="ENTER" description="jsoup1.13.1" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
 </templateSet>
