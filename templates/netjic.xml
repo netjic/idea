@@ -316,4 +316,14 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="mybatisxml" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;&#10;&lt;!DOCTYPE configuration&#10;        PUBLIC &quot;-//mybatis.org//DTD Config 3.0//EN&quot;&#10;        &quot;http://mybatis.org/dtd/mybatis-3-config.dtd&quot;&gt;&#10;&lt;configuration&gt;&#10;    &lt;environments default=&quot;development&quot;&gt;&#10;        &lt;environment id=&quot;development&quot;&gt;&#10;            &lt;transactionManager type=&quot;JDBC&quot;/&gt;&#10;            &lt;dataSource type=&quot;POOLED&quot;&gt;&#10;                &lt;property name=&quot;driver&quot; value=&quot;com.mysql.cj.jdbc.Driver&quot;/&gt;&#10;                &lt;property name=&quot;url&quot; value=&quot;jdbc:mysql://localhost:3306/shopadmin?useUnicode=true&amp;amp;characterEncoding=utf8&amp;amp;serverTimezone=PRC&quot;/&gt;&#10;                &lt;property name=&quot;username&quot; value=&quot;root&quot;/&gt;&#10;                &lt;property name=&quot;password&quot; value=&quot;&quot;/&gt;&#10;            &lt;/dataSource&gt;&#10;        &lt;/environment&gt;&#10;    &lt;/environments&gt;&#10;    &lt;mappers&gt;&#10;        &lt;mapper resource=&quot;org/mybatis/example/BlogMapper.xml&quot;/&gt;&#10;    &lt;/mappers&gt;&#10;&lt;/configuration&gt;" shortcut="ENTER" description="mybatisxml" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="mapperxml" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;&#10;&lt;!DOCTYPE mapper&#10;        PUBLIC &quot;-//mybatis.org//DTD Mapper 3.0//EN&quot;&#10;        &quot;http://mybatis.org/dtd/mybatis-3-mapper.dtd&quot;&gt;&#10;&lt;mapper namespace=&quot;org.mybatis.example.BlogMapper&quot;&gt;&#10;    &lt;select id=&quot;selectBlog&quot; resultType=&quot;Blog&quot;&gt;&#10;        select * from Blog where id = #{id}&#10;    &lt;/select&gt;&#10;&lt;/mapper&gt;" shortcut="ENTER" description="mapperxml" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
