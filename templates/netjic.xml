@@ -331,7 +331,7 @@
       <option name="MAVEN" value="true" />
     </context>
   </template>
-  <template name="jdbc" value="jdbc.ClassName=com.mysql.cj.jdbc.Driver&#10;jdbc.url=jdbc:mysql://localhost:3306/shopadmin?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=PRC&#10;jdbc.password=&#10;jdbc.username=root" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+  <template name="jdbc" value="jdbc.ClassName=com.mysql.cj.jdbc.Driver&#10;jdbc.url=jdbc:mysql://localhost:3306/shopadmin?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=PRC&#10;jdbc.password=&#10;jdbc.username=root" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
       <option name="ANY_OPENAPI_YAML_FILE" value="false" />
