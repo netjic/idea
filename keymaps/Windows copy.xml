@@ -15,6 +15,13 @@
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
   </action>
+  <action id="CloseAllToTheRight">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" />
+  </action>
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="alt f1" />
   </action>
@@ -28,6 +35,7 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="DumpLookupElementWeights" />
   <action id="Editor LRU">
     <keyboard-shortcut first-keystroke="alt f2" />
   </action>
@@ -79,6 +87,9 @@
     <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="SelectIn" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" />
+  </action>
   <action id="StepOver" />
   <action id="TodoViewGroupByShowModules" />
   <action id="ToggleBookmark" />
