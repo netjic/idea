@@ -4,6 +4,7 @@
       <mapping pattern="qwer" type="PLAIN_TEXT" />
       <mapping pattern="index" type="PLAIN_TEXT" />
       <mapping pattern="text" type="PLAIN_TEXT" />
+      <mapping pattern="application.yml" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
