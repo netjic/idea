@@ -14,7 +14,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="@lombok" value="@Data&#10;@NoArgsConstructor&#10;@AllArgsConstructor" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+  <template name="@lombok" value="@Data&#10;@NoArgsConstructor&#10;@AllArgsConstructor" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
